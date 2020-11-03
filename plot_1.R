@@ -1,0 +1,2 @@
+subpower<-subset(power,power$Date=="1/2/2007"|power$Date=="2/2/2007")
+ hist(as.numeric(as.character(subpower$Global_active_power)),col="red",main="global active power",xlab = "global active power(killowatts)")
